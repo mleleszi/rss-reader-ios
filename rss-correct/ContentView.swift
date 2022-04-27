@@ -8,16 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var viewModel = FeedViewModel()
+    @StateObject var feedViewModel = FeedViewModel()
         
     var body: some View {
-        VStack {
-            List {
-                ForEach(viewModel.rssItems) { item in
-                    Text(item.title)
-                }
-            }
-        }
+        RSSListView(rssItems: feedViewModel.rssItems)
     }
 }
 

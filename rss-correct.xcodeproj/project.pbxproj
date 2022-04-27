@@ -17,6 +17,8 @@
 		B4081D20281964640040183C /* rss_correctUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4081D1F281964640040183C /* rss_correctUITestsLaunchTests.swift */; };
 		B4081D2F28196C420040183C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4081D2E28196C420040183C /* FeedViewModel.swift */; };
 		B468AF8D2819717300E06153 /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF8C2819717300E06153 /* RSSItem.swift */; };
+		B468AF91281973AD00E06153 /* RSSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF90281973AD00E06153 /* RSSListView.swift */; };
+		B468AF93281974B700E06153 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B468AF92281974B700E06153 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		B4081D1F281964640040183C /* rss_correctUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_correctUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B4081D2E28196C420040183C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		B468AF8C2819717300E06153 /* RSSItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSItem.swift; sourceTree = "<group>"; };
+		B468AF90281973AD00E06153 /* RSSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSListView.swift; sourceTree = "<group>"; };
+		B468AF92281974B700E06153 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		B4081CF6281964620040183C = {
 			isa = PBXGroup;
 			children = (
+				B468AF92281974B700E06153 /* .gitignore */,
 				B4081D01281964620040183C /* rss-correct */,
 				B4081D12281964640040183C /* rss-correctTests */,
 				B4081D1C281964640040183C /* rss-correctUITests */,
@@ -139,6 +144,7 @@
 		B468AF892819708800E06153 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B468AF90281973AD00E06153 /* RSSListView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4081D0A281964640040183C /* Preview Assets.xcassets in Resources */,
+				B468AF93281974B700E06153 /* .gitignore in Resources */,
 				B4081D07281964640040183C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B468AF8D2819717300E06153 /* RSSItem.swift in Sources */,
+				B468AF91281973AD00E06153 /* RSSListView.swift in Sources */,
 				B4081D05281964620040183C /* ContentView.swift in Sources */,
 				B4081D2F28196C420040183C /* FeedViewModel.swift in Sources */,
 				B4081D03281964620040183C /* rss_correctApp.swift in Sources */,
