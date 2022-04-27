@@ -21,6 +21,7 @@
 		B468AF93281974B700E06153 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B468AF92281974B700E06153 /* .gitignore */; };
 		B468AF972819755D00E06153 /* RSSListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF962819755D00E06153 /* RSSListItemView.swift */; };
 		B468AF992819768600E06153 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF982819768600E06153 /* LoadingView.swift */; };
+		B468AF9B28197A6600E06153 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF9A28197A6600E06153 /* HTMLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B468AF92281974B700E06153 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B468AF962819755D00E06153 /* RSSListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSListItemView.swift; sourceTree = "<group>"; };
 		B468AF982819768600E06153 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B468AF9A28197A6600E06153 /* HTMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4447490CA560AF27861C0ABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B4081CF6281964620040183C = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +102,7 @@
 				B4081D12281964640040183C /* rss-correctTests */,
 				B4081D1C281964640040183C /* rss-correctUITests */,
 				B4081D00281964620040183C /* Products */,
+				4447490CA560AF27861C0ABC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +161,7 @@
 				B468AF90281973AD00E06153 /* RSSListView.swift */,
 				B468AF962819755D00E06153 /* RSSListItemView.swift */,
 				B468AF982819768600E06153 /* LoadingView.swift */,
+				B468AF9A28197A6600E06153 /* HTMLView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -309,6 +320,7 @@
 				B468AF972819755D00E06153 /* RSSListItemView.swift in Sources */,
 				B4081D2F28196C420040183C /* FeedViewModel.swift in Sources */,
 				B468AF992819768600E06153 /* LoadingView.swift in Sources */,
+				B468AF9B28197A6600E06153 /* HTMLView.swift in Sources */,
 				B4081D03281964620040183C /* rss_correctApp.swift in Sources */,
 				39C088E1EA071D6997110CF9 /* FeedParserService.swift in Sources */,
 			);

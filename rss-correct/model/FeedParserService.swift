@@ -73,7 +73,6 @@ class FeedParserService: NSObject, XMLParserDelegate {
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         if elementName == "item" {
             let rssItem = RSSItem(title: currentTitle, description: currentDescription, pubDate: currentPubdate)
-            print(rssItem.title)
             self.rssItems.append(rssItem)
         }
 
