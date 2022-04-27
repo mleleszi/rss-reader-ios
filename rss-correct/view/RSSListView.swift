@@ -26,7 +26,7 @@ struct RSSListView: View {
             List {
                 ForEach(filteredItems) { item in
                     NavigationLink {
-                        
+                        RSSListItemView(rssItem: item)
                     } label: {
                         Text(item.title)
                             .padding()

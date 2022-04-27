@@ -11,7 +11,11 @@ struct ContentView: View {
     @StateObject var feedViewModel = FeedViewModel()
         
     var body: some View {
-        RSSListView(rssItems: feedViewModel.rssItems)
+        if feedViewModel.isLoading {
+            LoadingView()
+        } else {
+            RSSListView(rssItems: feedViewModel.rssItems)
+        }
     }
 }
 

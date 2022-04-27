@@ -19,6 +19,8 @@
 		B468AF8D2819717300E06153 /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF8C2819717300E06153 /* RSSItem.swift */; };
 		B468AF91281973AD00E06153 /* RSSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF90281973AD00E06153 /* RSSListView.swift */; };
 		B468AF93281974B700E06153 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B468AF92281974B700E06153 /* .gitignore */; };
+		B468AF972819755D00E06153 /* RSSListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF962819755D00E06153 /* RSSListItemView.swift */; };
+		B468AF992819768600E06153 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468AF982819768600E06153 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		B468AF8C2819717300E06153 /* RSSItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSItem.swift; sourceTree = "<group>"; };
 		B468AF90281973AD00E06153 /* RSSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSListView.swift; sourceTree = "<group>"; };
 		B468AF92281974B700E06153 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B468AF962819755D00E06153 /* RSSListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSListItemView.swift; sourceTree = "<group>"; };
+		B468AF982819768600E06153 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				B468AF90281973AD00E06153 /* RSSListView.swift */,
+				B468AF962819755D00E06153 /* RSSListItemView.swift */,
+				B468AF982819768600E06153 /* LoadingView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 				B468AF8D2819717300E06153 /* RSSItem.swift in Sources */,
 				B468AF91281973AD00E06153 /* RSSListView.swift in Sources */,
 				B4081D05281964620040183C /* ContentView.swift in Sources */,
+				B468AF972819755D00E06153 /* RSSListItemView.swift in Sources */,
 				B4081D2F28196C420040183C /* FeedViewModel.swift in Sources */,
+				B468AF992819768600E06153 /* LoadingView.swift in Sources */,
 				B4081D03281964620040183C /* rss_correctApp.swift in Sources */,
 				39C088E1EA071D6997110CF9 /* FeedParserService.swift in Sources */,
 			);
